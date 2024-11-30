@@ -1,0 +1,6 @@
+Now create load balancer on AWS console under EC2 service select load balancer 
+go to load balacer service --> select Application load Balancer --> create --> then create one target group --> target type instances --> select instances ID --> save/create.
+Then edit inbound rule and allow port 80 to both server and also in load balancer.
+For more security copy security ID of load balancer and paste it on instance security group with port 80.
+Load balancer generate one DNS URL copy that and paste it on browser this will helps to access your both server.
+After all this setup now you can access both the web server on one site.
