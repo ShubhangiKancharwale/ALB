@@ -1,0 +1,11 @@
+Deploy two web servers and this web servers should be accessible by application load balancer.
+Login to AWS account 
+Launch two EC2 instance(Ubuntu) then login to servers in any terminal you used(putty/VM Ware/any linux terminal)
+Add HTTP port in security group of each instance.
+commands:  ubuntu
+           sudo bash 
+Install apache2 in both servers  cmd: apt install apache2
+copy IP address of instance paste on browser default page of apache2 will be appears.
+In terminal using vi cmd you can modify apache default page code to your web page code.
+Refresh browser default page gets modified with yours.
+
