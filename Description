@@ -1,0 +1,10 @@
+Application Load Balancer:
+These balancers are designed to make routing decisions at the application layer. 
+Application Load Balancer (ALB) now supports HTTP request and response header modification giving you greater controls to manage your application’s traffic and security posture without having to alter your application code.
+Application Load Balancer operates at the request level (layer 7), routing traffic to targets (EC2 instances, containers, IP addresses, and Lambda functions) based on the content of the request. 
+Ideal for advanced load balancing of HTTP and HTTPS traffic, Application Load Balancer provides advanced request routing targeted at delivery of modern application architectures, including microservices and container-based applications.
+
+
+Apache:
+Apache is a web server software that is responsible for accepting HTTP requests from visitors and sending them back the requested information in the form of web pages. 
+Or in simpler terms, it allows visitors to view content on your website.
